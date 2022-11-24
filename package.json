@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "lerna run start",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean"
   },
   "keywords": [],
   "author": "",
