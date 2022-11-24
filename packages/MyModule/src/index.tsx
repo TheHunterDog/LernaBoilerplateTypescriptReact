@@ -1,0 +1,3 @@
+export {
+  MyModule
+} from './MyModule';

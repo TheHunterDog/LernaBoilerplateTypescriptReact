@@ -4,10 +4,10 @@
 
 import React from 'react';
 import { render } from '@testing-library/react';
-import { Header } from './Header';
+import { MyModule } from './MyModule';
 
-test('renders header', () => {
-  const { getByText } = render(<Header />);
+test('renders MyModule', () => {
+  const { getByText } = render(<MyModule />);
   const linkElement = getByText(/Lerna/i);
   expect(linkElement).toBeDefined();
 });
